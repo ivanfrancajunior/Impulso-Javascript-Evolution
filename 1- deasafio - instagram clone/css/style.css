@@ -12,7 +12,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: #f3f3f3;
     margin: 0;
     padding: 0;
     display: flex;
@@ -40,8 +40,8 @@ body {
 
 .instagram-continue {
     display: flex;
-    align-items: center; /* horizontal */
-    justify-content: space-around; /* vertical */
+    align-items: center;
+    justify-content: space-around; 
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -92,7 +92,7 @@ body {
 }
 
 .not-account {
-    color: rgb(160, 160, 160);
+    color: #a0a0a0;
 }
 
 .link-blue {
@@ -110,7 +110,7 @@ body {
 .get-the-app p {
     text-align: center;
     padding: 1.3rem 0;
-    color: rgb(94, 92, 92);
+    color: #5e5c5c;
     font-weight: bold;
 }
 
@@ -138,7 +138,6 @@ body {
 
 
 
-/* media queries */
 
 
 @media (max-width: 1024px) {
